@@ -43,6 +43,7 @@ def recommend(data: UserInput):
     }
     """
 
+    # API CALL....
     response = client.models.generate_content(
         model="gemini-flash-lite-latest",
         contents=prompt
