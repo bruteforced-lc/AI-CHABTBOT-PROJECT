@@ -30,7 +30,7 @@ function App() {
     setInput("")
     setLoading(true)
 
-     await new Promise(resolve => setTimeout(resolve, 3000))
+     //await new Promise(resolve => setTimeout(resolve, 1000))
 
     try {
       const response = await fetch("http://127.0.0.1:8000/recommend", {
